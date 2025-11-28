@@ -1,0 +1,109 @@
+1. Types of Personal Information Collected and Methods of Collection
+This service does not have a sign-up function and does not require information that can directly identify a user, such as name, phone number, or email address.
+However, to provide app features, the following information may be stored on the user’s device or collected through third-party services (advertising/payment SDKs).
+Information stored within the app (local storage, no developer server)
+To-do content (text memo)
+To-do date (e.g., schedule information in YYYY-MM-DD format)
+For location-based to-dos:
+Location group (place name/nickname)
+Latitude/longitude coordinates of the place
+Geofence radius information (e.g., 200m, 300m, etc.)
+Notification-related settings (notification on/off, cooldown, etc.)
+App settings (language, onboarding guide display status, etc.)
+Ad removal purchase status (a simple flag indicating premium status)
+The above information is stored only on the user’s device and is not transmitted to any separate server operated by the developer.
+Information collected/used through device permissions
+Location information
+Purpose of use: To provide location-based to-do (geofence) notifications and low-power backup location updates
+Type: Current location coordinates obtained via the device’s GPS/Wi-Fi/cell tower information
+Permission types:
+“Allow location access while using the app”
+“Allow location access all the time (background location)”
+Notifications
+Purpose of use: To display notifications when a to-do is due or when entering a geofenced area
+Permission type: Push/local notification permission
+Information that may be automatically collected by third-party SDKs (ads/payments)
+Advertising platforms (e.g., Google AdMob)
+Advertising ID (ad identifier), device information (model, OS version), app usage data, partial IP information, etc.
+This may be used for ad targeting, fraud prevention, and statistical analysis.
+In-app purchases (IAP, Google Play Billing / Apple In-App Purchase, etc.)
+Purchase history, purchase tokens, transaction IDs, and other minimum information necessary for payments
+The payment details themselves are managed by the store (Google/Apple), and the developer only checks whether a purchase has been made in order to provide the ad-removal feature.
+For what data each SDK collects and how it is used, please refer to the privacy policies of those service providers
+(e.g., Google LLC’s AdMob, Google Play billing services, etc.).
+2. Purpose of Processing Personal Information
+This service uses the collected information only for the following purposes:
+Providing to-do management features
+Storing and displaying to-dos, dates, and location information entered by the user
+Displaying today’s to-dos and location-based to-dos
+Providing location-based notifications
+When the user enters a user-defined place radius (geofence),
+notifications are sent for the “today’s to-dos” linked to that place
+Low-power location updates are used to supplement geofence events
+Providing notification features
+Displaying local notifications when a to-do is due or when entering a location
+Applying notification cooldowns and preventing duplicate notifications for the same place
+Providing advertisements and paid features
+Showing in-app ads (banner, interstitial, etc.) to free users
+Offering an in-app purchase option to remove ads and checking purchase status
+Service quality improvement and error handling
+Using in-app error logs and simple statistics (e.g., ad load failures, geofence behavior logs)
+to fix bugs and improve performance
+Even in this process, information that directly identifies the user is not collected.
+3. Retention and Use Period of Personal Information
+Information stored on the user’s device (to-dos, locations, settings, etc.)
+Stored on the device for as long as the user uses the app.
+When the user deletes the app or initializes data within the app, the relevant information is deleted from the device.
+Information collected and retained by third-party services (ads/payments)
+Retention periods follow the policies of each service provider.
+The developer does not separately store personally identifiable information or raw payment details.
+4. Provision of Personal Information to Third Parties
+The developer does not provide users’ personal information to third parties, except in the following cases:
+When the user has given prior consent
+When required by law
+When requested by investigative agencies through lawful procedures
+When third-party SDKs used within the app (for ads/payments) collect and process information on their own
+In such cases, the information is processed in accordance with each SDK provider’s privacy policy and terms.
+5. Outsourcing (委託) of Personal Information Processing
+The developer does not entrust user personal information processing to separate contractors (“processors”).
+However, to provide features such as ads, payments, and notifications, the app uses external platform SDKs.
+Each platform acts as an independent personal information controller and processes data under its own responsibility.
+Examples:
+Ads: Google AdMob, etc.
+In-app payments: Google Play Billing, Apple In-App Purchase, etc.
+6. Users’ Rights and How to Exercise Them
+Users can perform the following actions at any time within the app:
+Edit/delete to-do and location information
+Delete the app to remove all data
+Through device settings, users can control:
+Granting/revoking location permissions
+Allowing/restricting background location usage
+Granting/revoking notification permissions
+Resetting/clearing the advertising ID (Android/iOS OS features)
+In-app purchase (ad removal) history is managed based on the store account:
+When the store account is changed, purchase history may not be carried over.
+If a “Restore Purchase” function is provided, users can restore purchases via the “Restore Purchase” menu in the app.
+7. Procedures and Methods for Destroying Personal Information
+Data on the user’s device
+When the user deletes the app or initializes data within the app,
+to-do/location/settings information stored on the device is deleted in a way that cannot be restored.
+No separate server-stored personal information
+This service does not store user personal information on its own servers.
+Information stored by third-party services
+Destruction of information stored by third-party services (ads/payments, etc.)
+follows the privacy policies of those respective service providers.
+8. Measures to Ensure the Security of Personal Information
+The developer makes the following efforts:
+Principle of minimum collection
+No sign-up/login features; only the minimum information required to provide the service is used.
+Local storage first
+To-do content, location information, and settings are stored only on the user’s device.
+Separate server storage/transmission is minimized.
+Using OS and SDK security features
+Utilizing the permission system and sandbox structure of Android / iOS
+Using in-app purchase and ad SDKs provided by the official app stores (Google/Apple)
+Updates
+If security vulnerabilities are discovered or policies change,
+updates and notices will be provided through app updates and/or announcements.
+This app may be modified, suspended, or terminated at any time without prior notice.
+By continuing to use the app, you are deemed to have agreed to the above. If you do not agree, please stop using the app.
