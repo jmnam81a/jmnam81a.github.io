@@ -1,0 +1,45 @@
+This app uses the device’s sensors (accelerometer, gyroscope, magnetometer, etc.) to assist with golf putting. This policy explains what information the app collects, uses, retains, and shares, and describes users’ rights.
+1) Information We Collect
+The app operates without account registration and does not store personally identifiable information on our app servers. However, the following information may be processed on-device or collected via third-party modules:
+Device sensor data (accelerometer/gyroscope/magnetometer/orientation): Processed locally on the device to calculate putting slope and direction. Not transmitted to our servers.
+In-app purchase information: Store-issued receipts/transaction tokens (used to verify purchases/restores; not retained long-term).
+Advertising identifiers/device info (optional): Ad SDKs may collect advertising identifiers (AAID/IDFA), approximate location, and device information.
+Error/performance data (non-identifying): Crash/performance logs may be collected through the OS/store/analytics tools to improve stability.
+The actual third-party modules used may vary by app version.
+2) How We Use Information
+Calculating and visualizing (UI) putting assistance
+Processing in-app purchases (purchase/restore verification)
+Improving app stability and usability (error/performance analysis)
+Providing ads and personalized ads (where legally required, based on user consent)
+3) Retention & Deletion
+Sensor data: Not stored on servers; used only on the device after calculation.
+Purchase receipts/tokens: Retained only as necessary for verification and then deleted.
+Third-party data retention: Follows each partner’s policy.
+4) Third Parties / Processors
+To deliver app features, we may use the following services/SDKs (actual usage may differ by version):
+Payments: Google Play Billing (Android), Apple In-App Purchase (iOS)
+Advertising (optional): Google AdMob, etc.
+Errors/analytics (optional): OS/store diagnostics, crash/analytics tools
+Each partner’s own privacy policy applies.
+5) Your Rights
+Personalized ads consent management: In regions where consent is required (e.g., EEA), you can choose via a consent banner at first launch and later change it in the app settings.
+Access/rectification/deletion: We do not store personal data on our own servers. Rights for data held by third parties must be exercised through their procedures.
+Withdraw consent: You can disable personalized ads or delete the app to stop collection.
+6) International Transfers
+Third-party partner infrastructure may be distributed across multiple countries and will follow the laws of those countries.
+7) Security
+We take reasonable safeguards such as encryption in transit, but cannot guarantee absolute security on the internet.
+8) Permissions
+Sensors (motion/orientation): Calculate putting slope/direction
+Network: Load ads, verify purchases, check for updates
+(Optional) Vibration/audio: User feedback
+Permissions are used only for providing app features.
+9) Notices & Disclaimers
+You may stop at any time. Users can delete the app to end use at any time.
+Possible interruption for technical reasons: Regardless of purchase status, app features may be limited or discontinued—and the app may be removed from the store—due to technical reasons such as OS/store policy changes, sensor/driver issues, or third-party service outages.
+Device support limits: Some devices may lack required sensors (accelerometer/gyroscope/magnetometer) or may differ in accuracy. Please verify proper operation before purchase.
+Accuracy notice: Results may vary due to environmental factors such as surface conditions, wind, magnetic interference, or thick phone cases; the app’s display is for reference only.
+Refunds/cancellation: Follow the policies of each store (Play/App Store).
+Not a medical device: This app is not designed for medical purposes.
+10) Changes
+This policy may be updated due to legal or service changes. We will notify users in-app or via release notes for material changes. Continued use after the effective date constitutes acceptance of the changes.
